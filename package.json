@@ -2,15 +2,22 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
-    "ios": "react-native run-ios"
+    "ios": "react-native run-ios",
+    "rn-link": "react-native link"
   },
   "dependencies": {
     "@babel/runtime": "^7.2.0",
     "react": "16.5.0",
-    "react-native": "~0.55.2"
+    "react-native": "~0.55.2",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   },
   "private": true
 }
